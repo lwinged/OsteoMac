@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE4C36C1CE0C57D00F5824C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4C36B1CE0C57D00F5824C /* AppDelegate.swift */; };
+		EEE4C36E1CE0C57D00F5824C /* PatientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4C36D1CE0C57D00F5824C /* PatientDetailViewController.swift */; };
+		EEE4C3701CE0C57D00F5824C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4C36F1CE0C57D00F5824C /* Assets.xcassets */; };
+		EEE4C3731CE0C57D00F5824C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4C3711CE0C57D00F5824C /* Main.storyboard */; };
+		EEE4C37C1CE0CCD700F5824C /* PatientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4C37B1CE0CCD700F5824C /* PatientTableViewController.swift */; };
+		EEE4C37E1CE0D4EF00F5824C /* MasterSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4C37D1CE0D4EF00F5824C /* MasterSplitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEE4C3681CE0C57D00F5824C /* OsteoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsteoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE4C36B1CE0C57D00F5824C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE4C36D1CE0C57D00F5824C /* PatientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailViewController.swift; sourceTree = "<group>"; };
+		EEE4C36F1CE0C57D00F5824C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE4C3721CE0C57D00F5824C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE4C3741CE0C57D00F5824C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4C37B1CE0CCD700F5824C /* PatientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTableViewController.swift; sourceTree = "<group>"; };
+		EEE4C37D1CE0D4EF00F5824C /* MasterSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterSplitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE4C3651CE0C57D00F5824C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE4C35F1CE0C57D00F5824C = {
+			isa = PBXGroup;
+			children = (
+				EEE4C36A1CE0C57D00F5824C /* OsteoMac */,
+				EEE4C3691CE0C57D00F5824C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE4C3691CE0C57D00F5824C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4C3681CE0C57D00F5824C /* OsteoMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE4C36A1CE0C57D00F5824C /* OsteoMac */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4C37A1CE0CC8E00F5824C /* Controller */,
+				EEE4C36B1CE0C57D00F5824C /* AppDelegate.swift */,
+				EEE4C36F1CE0C57D00F5824C /* Assets.xcassets */,
+				EEE4C3711CE0C57D00F5824C /* Main.storyboard */,
+				EEE4C3741CE0C57D00F5824C /* Info.plist */,
+			);
+			path = OsteoMac;
+			sourceTree = "<group>";
+		};
+		EEE4C37A1CE0CC8E00F5824C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4C36D1CE0C57D00F5824C /* PatientDetailViewController.swift */,
+				EEE4C37B1CE0CCD700F5824C /* PatientTableViewController.swift */,
+				EEE4C37D1CE0D4EF00F5824C /* MasterSplitViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE4C3671CE0C57D00F5824C /* OsteoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE4C3771CE0C57D00F5824C /* Build configuration list for PBXNativeTarget "OsteoMac" */;
+			buildPhases = (
+				EEE4C3641CE0C57D00F5824C /* Sources */,
+				EEE4C3651CE0C57D00F5824C /* Frameworks */,
+				EEE4C3661CE0C57D00F5824C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsteoMac;
+			productName = OsteoMac;
+			productReference = EEE4C3681CE0C57D00F5824C /* OsteoMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE4C3601CE0C57D00F5824C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lwinged;
+				TargetAttributes = {
+					EEE4C3671CE0C57D00F5824C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EEE4C3631CE0C57D00F5824C /* Build configuration list for PBXProject "OsteoMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE4C35F1CE0C57D00F5824C;
+			productRefGroup = EEE4C3691CE0C57D00F5824C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE4C3671CE0C57D00F5824C /* OsteoMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE4C3661CE0C57D00F5824C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4C3701CE0C57D00F5824C /* Assets.xcassets in Resources */,
+				EEE4C3731CE0C57D00F5824C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE4C3641CE0C57D00F5824C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4C36E1CE0C57D00F5824C /* PatientDetailViewController.swift in Sources */,
+				EEE4C37E1CE0D4EF00F5824C /* MasterSplitViewController.swift in Sources */,
+				EEE4C37C1CE0CCD700F5824C /* PatientTableViewController.swift in Sources */,
+				EEE4C36C1CE0C57D00F5824C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEE4C3711CE0C57D00F5824C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE4C3721CE0C57D00F5824C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE4C3751CE0C57D00F5824C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE4C3761CE0C57D00F5824C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEE4C3781CE0C57D00F5824C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OsteoMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwinged.OsteoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEE4C3791CE0C57D00F5824C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OsteoMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lwinged.OsteoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE4C3631CE0C57D00F5824C /* Build configuration list for PBXProject "OsteoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE4C3751CE0C57D00F5824C /* Debug */,
+				EEE4C3761CE0C57D00F5824C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE4C3771CE0C57D00F5824C /* Build configuration list for PBXNativeTarget "OsteoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE4C3781CE0C57D00F5824C /* Debug */,
+				EEE4C3791CE0C57D00F5824C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE4C3601CE0C57D00F5824C /* Project object */;
+}
